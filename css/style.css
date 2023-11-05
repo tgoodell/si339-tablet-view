@@ -4,6 +4,7 @@
     --beige: #edf0da;
     --smoky-black: #0A0903;
     --tropical-indigo: #8b80f9;
+    --dim-grey: #696773;
 }
 
 * {
@@ -74,6 +75,12 @@ hr {
     max-width: 4em;
     border: 2px solid var(--tropical-indigo);
     margin: 0.25em auto 1em auto;
+}
+
+figcaption {
+    color: var(--dim-grey);
+    font-style: italic;
+    margin-bottom: 0.2em;
 }
 
 /* Navigation */
