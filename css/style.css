@@ -150,7 +150,7 @@ nav li a:hover {
 
 /* Quarter Image Organization */
 
-.text-and-photo-gallery {
+.text-and-photo-gallery, .photo-gallery {
     display: grid;
     grid-gap: 10px;
     grid-template-columns: 1fr 1fr;
@@ -160,7 +160,7 @@ nav li a:hover {
     grid-column: 1 / span 2;
 }
 
-.text-and-photo-gallery img {
+.text-and-photo-gallery img, .photo-gallery img {
     width: 100%;
     max-width: 100%;
 }
@@ -231,7 +231,11 @@ footer p {
         grid-column: 1 / span 1;
     }
 
-    h3 {
+    .text-and-photo-gallery h3 {
         display: none;
+    }
+
+    body > main > div {
+        margin-bottom: 3em;
     }
 }
