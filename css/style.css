@@ -143,13 +143,17 @@ nav li a:hover {
 
 /* Quarter Image Organization */
 
-.photo-gallery {
+.text-and-photo-gallery {
     display: grid;
     grid-gap: 10px;
     grid-template-columns: 1fr 1fr;
 }
 
-.photo-gallery img {
+.place-details, h3 {
+    grid-column: 1 / span 2;
+}
+
+.text-and-photo-gallery img {
     width: 100%;
     max-width: 100%;
 }
@@ -213,5 +217,14 @@ footer p {
     .entity-image {
         max-width: 100%;
         width: 100%;
+    }
+
+    /* Photo gallery witb inline text */
+    .place-details {
+        grid-column: 1 / span 1;
+    }
+
+    h3 {
+        display: none;
     }
 }
