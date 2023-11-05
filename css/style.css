@@ -177,3 +177,35 @@ footer p {
         transition: 0s;
     }
 }
+
+@media (min-width: 768px)  {
+    /* Navigation */
+    nav {
+        max-width: 80%;
+        margin: auto;
+        display: block;
+        float: right;
+        border: none;
+    }
+    
+    nav ul {
+        text-align: right;
+        margin: 0.5em 0;
+        font-size: 1.3em;
+    }
+
+    nav li {
+        line-height: 1.7em;
+    }
+
+    header h1 {
+        display: inline-block;
+    }
+
+    header {
+        width: 80%;
+        margin: 1em auto 0 auto;
+        border-bottom: 1px dashed black;
+        border-top: 1px dashed black;
+    }
+}
