@@ -221,7 +221,7 @@ footer p {
     }
 }
 
-@media (min-width: 600px)  {
+@media (min-width: 768px)  {
     /* Navigation */
     nav {
         max-width: 80%;
