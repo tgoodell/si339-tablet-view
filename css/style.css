@@ -8,8 +8,11 @@
 }
 
 * {
-    background-color: var(--beige);
     color: var(--smoky-black);
+}
+
+body {
+    background-color: var(--beige);
 }
 
 h1 {
@@ -250,6 +253,52 @@ footer p {
         margin: 1em auto 0 auto;
         border-bottom: 1px dashed black;
         border-top: 1px dashed black;
+    }
+
+    #secondary-nav {
+        background-color: var(--tropical-indigo);
+        border-radius: 3em;
+        width: 3em;
+        height: 3em;
+        position: fixed;
+        right: 10%;
+        bottom: 3em;
+        cursor: pointer;
+        text-align: center;
+        font-size: 1em;
+        color: whitesmoke;
+    }
+
+    #collapsable-nav {
+        position: fixed;
+        right: 10%;
+        bottom: 5.3em;
+        visibility: hidden;
+    }
+
+    #collapsable-nav ul {
+        transform: rotate(180deg);
+        background-color: var(--raspberry-rose);
+        padding: 0;
+        border-radius: 3em 3em 0 0;
+    }
+
+    #collapsable-nav li {
+        display: block;
+        transform: rotate(-180deg);
+        margin: 0;
+    }
+
+    #collapsable-nav li a {
+        color: var(--beige);
+        padding: 0.1em 0.9em;
+    }
+
+    #collapsable-nav li a:hover {
+        color: var(--beige);
+        text-decoration: none;
+        background-color: var(--active-raspberry-rose);
+        transition: 0.5s;
     }
 
     /* Main Image */
